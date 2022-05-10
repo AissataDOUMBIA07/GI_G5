@@ -1,0 +1,960 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+/* Les deux navs */
+.nav-ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: #CA7108;
+    color: white;
+    /* color: white; */
+    padding: 0;
+    margin: 0;
+    /* background-color: rgba(133, 194, 241, 0.421); */
+}
+.nav-li{
+    color: #415A9E;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-inline-end: 2px;
+}
+.nav-li a{
+    color: white;
+}
+.sous_menu{
+    width: 100%;
+    background-color: #415A9E;
+}
+/* Les icones */
+.icone{
+    position: relative;
+    left: 85%;
+    margin-inline-end: 30px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.icone1{
+    position: relative;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.nav-i .sous_menu i{
+    /* border: 2px solid white; */
+    color: white;
+    border-radius: 50px;
+    transition: 0.5s all;
+    font-size: 15px;
+}
+/* .nav-i .sous_menu i:hover{
+    color: white;
+    transform: rotate(360deg);
+    background-color: rgba(14, 14, 111, 0.91);
+    border-radius: 100%;
+} */
+/* Boutton deconnexion */
+.btn-deconnexion{
+    width: 120px;
+    height: 30px;
+    margin: 10px;
+    font-weight: bold;
+    position: relative;
+    left: 250%;
+    color: #CA7108;
+    background-color: white;
+    border-radius: 10px;
+    border: 0px;
+    /* border-color: rgba(14, 14, 111, 0.91); */
+    cursor: pointer;
+}
+.btn-connexion{
+    width: 120px;
+    height: 30px;
+    margin: 10px;
+    font-weight: bold;
+    position: relative;
+    left: 31%;
+    color: #CA7108;
+    background-color: white;
+    border-radius: 10px;
+    border: 0px;
+    /* border-color: rgba(14, 14, 111, 0.91); */
+    cursor: pointer;
+}
+/* bouton ajout et statut logement sur la page logement */
+.btn-ajout{
+    width: 180px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: #415A9E;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 50px;
+}
+.btn-statut{
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 35%;
+    color: white;
+    background-color: #415A9E;
+}
+/* le modal sur la page logement en cliquant sur le bouton ajout mogement */
+.header-modal{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #CA7108;
+}
+.body-modal{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-modal{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 64%;
+}
+.btn-sup{
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    background-color: #CA7108;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    /* padding-top: 50px; */
+}
+.btn-mod{
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    background-color: #415A9E;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+/* Logo */
+.image-logo2{
+   margin-top:  -15px;
+   margin-bottom: -25px;
+   position: relative;
+   right: 27%;
+}
+.image-logo1{
+    margin-top:  -15px;
+    margin-bottom: -25px;
+    position: relative;
+    right: 32%;
+}
+/* Tableau */
+table{
+    border-collapse: collapse;
+    border: rgba(14, 14, 111, 0.91);
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 50px;
+    text-align: center;
+ }
+ th{
+   border: 1px solid #b8b4b4;
+   padding: 10px;
+   text-align: center;
+   background-color: rgba(133, 194, 241, 0.421);
+ }
+ td{
+    border: 1px solid #b8b4b4;
+    padding: 10px;
+    text-align: center;
+ }
+ /* Pied de page */
+footer{
+    background-color: #CA7108;
+    border-top: 5px solid #415A9E;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 14%;
+}
+/* 
+.foot{
+    text-align: center;
+    padding-top: 50px;
+} */
+/* ADJA */
+/* authentification */
+.page{
+    width: 400px;
+    height: 280px;
+    background-color: rgb(241, 234, 221);
+    /* background-image: linear-gradient(rgb(248, 200, 145), rgb(182, 180, 177), rgba(248, 218, 196, 0.842)); */
+}
+.authentif_adja{
+    text-align: center;
+    border: 1px solid rgb(230, 188, 109);
+    width: 400px;
+    height: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #CA7108;
+    color: white;
+}
+/* #btn1{
+    background-color:rgba(14, 14, 111, 0.91);
+    color: white;
+    margin-left: 120px;
+} */
+#btn2{
+    background-color: #415A9E;
+    color: white;
+    
+}
+.adja_authentif{
+    width: 100px;
+    height: 50px;
+}
+/* ACCUEIL */
+/* .liste{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.li-items:hover{
+    color: rgb(60, 98, 247);
+    cursor: pointer;
+}
+.li-items{
+    color: white;
+    margin-left: 10px;
+    margin-top:-15px;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(246, 123, 35);
+}
+.img-log{
+    border-radius: 50%;
+   margin-top:-25px;
+   margin-left: 20px;
+   width: 100px; 
+   height: 100px;
+   float: left;
+}
+.btn{
+    margin-top:-25px;
+    margin-left: 300px; 
+} */
+
+/* Carousel */
+
+.carousel-inner{
+    height: 200px;
+    width: 100%;
+    /* margin-left: 150px; */
+}
+/* .carousel-item{
+    height: 300px;
+    width: 100%;
+    margin-left: 150px;
+} */
+/* Section */
+
+/* #titre{
+    border: 1px solid rgba(14, 14, 111, 0.91);
+    border-radius: 10px;
+    width: 530px;
+    text-align: center;
+    background-color:rgba(14, 14, 111, 0.91) ;
+    color: white;
+} */
+h4{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    background-color: #B2C6FB;
+    color: white;
+    text-align: center;
+    width: 530px;
+    height: 50px;
+    border-radius: 10px;
+}
+.v{
+    margin: 0;
+    padding: 0;
+    margin-left: 50%;
+    height: 500px;
+    margin-top: -150px;
+    border-left: 5px solid rgba(224, 173, 173, 0.2);
+}
+.v2{
+    margin: 0;
+    padding: 0;
+    margin-left: -26%;
+    height: 600px;
+    margin-top: -90%;
+    border-left: 8px solid rgba(224, 173, 173, 0.5);
+}
+.gb-image{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(224, 173, 173, 0.1);
+    height: 500px;
+    position: relative;
+    top: 30px;
+}
+.ligne1{
+    position: relative;
+    /* left: 120px; */
+    top: 50px;
+    /* margin-block-end: 20px; */
+}
+.col1{
+    position: relative;
+    left: 50px;
+}
+.col2{
+    position: relative;
+    left: 200px;
+}
+.ligne2{
+    position: relative;
+    /* left: 120px; */
+    top: -280px;
+    /* margin-block-end: 20px; */
+}
+.vente{
+    position: relative;
+    right: 50px;
+}
+.location{
+    position: relative;
+    left: 70px;
+}
+/* .section1 h4{
+    position: absolute;
+    background-color: #B2C6FB;
+    color: white;
+    width: 530px;
+    height: 50px;
+    border-radius: 10px;
+    top: 270px;
+    
+    left: 55px;
+    text-align: center;
+    font-size: 18px;
+}
+.section2 h4{
+    position: absolute;
+    background-color: #B2C6FB;
+    color: white;
+    width: 530px;
+    height: 50px;
+    border-radius: 10px;
+    top: -70px;
+    
+    left: 80px;
+    text-align: center;
+    font-size: 18px;
+} */
+.btn1{
+    background-color: #CA7108;
+    width: 120px;
+    height: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+}
+.btn2{
+    background-color: #415A9E;
+    margin-left: 15px;
+    width: 120px;
+    height: 30px;
+    /* margin-left: 15px; */
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+}
+.btn3{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color:rgba(14, 14, 111, 0.91) ;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.btn4{
+    margin-left: 15px;
+    background-color:rgba(14, 14, 111, 0.91) ;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* STYLE DETAILS */
+/* Le menu */
+/* .liste{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.li-items:hover{
+    color: rgba(14, 14, 111, 0.91);
+    cursor: pointer;
+}
+.li-items{
+    color: white;
+    margin-left: 15px;
+    margin-top:-15px;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(246, 123, 35);
+}
+.img-log{
+   border-radius: 50%;
+   margin-top:-25px;
+   margin-left: 20px;
+   width: 100px; 
+   height: 100px;
+   float: left;
+}
+.btn{
+     margin-top:-25px;
+     margin-left: 300px;
+     
+} */
+
+
+#det{
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #CA7108;
+}
+.ligne-details{
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+
+/* Section */
+/* .section1{
+    margin: 0;
+    padding: 0;
+    background-color: #E0ADAD;
+    width: 50%;
+    height: 400px;
+    margin-top: 90px;
+}
+
+.section2{
+    position: absolute;
+    left: 50%;
+    bottom: -83px;
+    margin: 0;
+    padding: 0;
+    background-color: #E0ADAD;
+    width: 50%;
+    height: 400px;
+} */
+.image{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 445px; 
+    height: 250px; 
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+span{
+    color: #CA7108;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text-details{
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    margin-left: 350px;
+    cursor: pointer;
+    color: white;
+}
+/* #btn{
+    background-color: rgba(14, 14, 111, 0.91);
+    margin-left: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+    color: white;
+} */
+#btn:hover{
+    cursor: pointer;
+}
+
+/* Modal */
+#header{
+    background-color: #CA7108;
+}
+.modal-title{
+    position: relative;
+    margin-left: 120px;
+    color: white;
+    font-weight: bold;
+}
+#btn1{
+    position: relative;
+    top: 100px;
+    left: 90px;
+    background-color: #415A9E;
+    width: 20%;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   border-radius: 10px;
+}
+#btn-inscrire{
+    margin-top: 30px;
+    color: white;
+    /* margin-left: 100px; */
+    background-color: #415A9E;
+    border-radius: 5px;
+    border: 0;
+    width: 100px;
+}
+#btn-connexion{
+    margin-top: 30px;
+    color: white;
+    /* margin-left: 100px; */
+    background-color: #415A9E;
+    border-radius: 5px;
+    border: 0;
+    width: 100px;
+}
+#btn-modal1{
+    margin-top: 30px;
+    color: white;
+    /* margin-left: 100px; */
+    background-color: #415A9E;
+    border-radius: 5px;
+    border: 0;
+    width: 120px;
+}
+#btn-modal2{
+    margin-top: 30px;
+    color: white;
+    /* margin-left: 100px; */
+    background-color: #415A9E;
+    border-radius: 5px;
+    border: 0;
+    width: 120px;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* Page authentification */
+.page{
+    position: relative;
+    right: 80px;
+    top: -100px;
+    width: 700px;
+    height: 320px;
+    background-color: rgb(246, 243, 239);
+}
+.authentification{
+    text-align: center;
+    /* border: 1px solid rgb(230, 188, 109); */
+    width: 700px;
+    height: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #CA7108;
+    color: white;
+}
+#btn_cool{
+    background-color:#415A9E;
+    color: white;
+    /* margin-left: 160px; */
+    border-radius: 5px;
+    width: 100px;
+    border: 0;
+    /* margin-top: 20px; */
+}
+#btn_connexion{
+    background-color:#415A9E;
+    color: white;
+    /* margin-left: 400px;
+    margin-top: -100px; */
+    border-radius: 5px;
+    width: 100px;
+    border: 0;
+}
+.deux{
+  /* position: relative; */
+  text-align: center;
+}
+.taille-form{
+    width: 650px;
+    margin-left: 25px;
+}
+/* FIN ADJA */
+/* DEBUT NAPINRIN */
+/* COntact NAPINRIN */
+.form-group{
+    width: 100%;
+    height: 95%;
+}
+.contact{
+    width: 70%;
+    height: 95%;
+}
+.formulaire{
+    /* position: relative; */
+    margin-left: 25%;
+    margin-top: 50px;
+}
+.Envoyer{
+    position: relative;
+    left: 61%;
+    top: 40px;
+    color: white;
+    background-color:#415A9E;
+    border-radius: 10%;
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    border: 0;
+}
+.retour_Adja{
+    position: relative;
+    left: 60%; 
+    color: white;
+    background-color:#415A9E;
+    border-radius: 10%;
+    /* position: absolute; */
+    top: 15px;
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    border: 0;
+}
+.lab{
+    font-size: 15px;
+}
+.form-control{
+    height: 40px;
+}
+/* La partie css de Prise de rendez-vous */
+/* button{
+    position: absolute;
+    margin-left: 88%;
+    color: white;
+    background-color:rgba(14, 14, 111, 0.91);
+    
+} */
+.modal-header{
+    background-color: #CA7108;
+    padding-left: 20%;
+    color: white;
+}
+.modal-title{
+    font-size: 20px;
+    text-align: center;
+}
+.envoyer{
+    position: relative;
+    margin-left: 45%;
+    background-color: #415A9E;
+    color: white;
+    border: 0;
+    width: 80px;
+    border-radius: 10px;
+}
+
+/* la partie css de ajouter des logements */
+
+.btn-iscription{
+    color: white;
+    background-color: #415A9E;
+    width: 100px;
+}
+.button{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 50px;
+    color: white;
+    background-color: #415A9E;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+}
+/* La partie css de modification des logements */
+#btn-modifier{
+    color: white;
+    background-color: #CA7108;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+}
+#btn-annuller{
+    color: white;
+    background-color: #CA7108;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+}
+#oui{
+    background-color: #C00D0D;
+    width: 80px;
+    height: 35px;
+    color: white;
+}
+#nom{
+    background-color: #415A9E;
+    width: 80px;
+    height: 35px;
+    color: white;
+}
+/* la partie Css de Contact */
+/* img{
+    width: 100px;
+    height: 90px;
+    border-radius: 90px;
+    margin-top: -15px;
+
+}
+.menu{
+    display: flex;
+    background-color: white;
+    height: 50px;
+}
+.liste{
+    list-style: none;
+    display: flex;
+    gap: 50Px;
+    padding-left: 35%;
+    margin-top: 9px;
+    color: rgba(14, 14, 111, 0.91);
+    border-radius: 4%;
+}
+.a{
+    font-size: 20px;
+
+}
+.button{
+    position: relative;
+    margin-left: 110%;
+    color: rgba(14, 14, 111, 0.91);
+    margin-top: 2px;
+    border-radius: 80%;
+    margin-top: 1%;
+}
+.icone{
+   background-color:rgb(246, 123, 35);
+   padding-left: 85%;
+   color: white;
+   margin-bottom: 10%; 
+}
+.icone i:hover{
+    cursor: pointer;
+    background-color: rgba(14, 14, 111, 0.91);
+    color: white;
+    width: 25px;
+    height: 25px;
+} 
+i{
+    margin-inline-end: 20px;
+}
+.form-group{
+    width: 100%;
+    height: 95%;
+}
+.formulaire{
+    position: absolute;
+    margin-left: 27%;
+    margin-top: -100px;
+}
+button{
+    position: absolute;
+    margin-left: 88%;
+    color: white;
+    background-color:rgba(14, 14, 111, 0.91);
+    
+}
+.envoyer{
+    background-color: rgba(14, 14, 111, 0.91);
+    color: white;
+}
+.forme{
+    padding-bottom:5%;
+} */
+/* FIN NAPINRIN */
+/* DEBUT VAN */
+/* CLIENT */
+/* barre de menu */
+/* .navbar{
+    background-color: rgb(16, 32, 56);
+    border-bottom: 4px solid rgba(164, 172, 138, 0.904);
+}
+.navbar-nav{
+    position: relative;
+    margin-left: 30%;
+    gap: 50px;
+    color: white; 
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+#logout{
+    color: rgb(246, 123, 35);
+    font-weight: 700;
+}
+.menu-item{
+    text-decoration: none;
+    font-weight: 600;
+    color: beige;
+} */
+
+/* footer */
+/* footer{
+    height: 100px;
+    background-color: rgb(16, 32, 56);
+    border-top: 2px solid wheat;
+}
+.copyr{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 40px;
+    color: beige;
+} */
+/* tableau */
+/* table{
+    border: 5px solid rgb(16, 32, 56);
+}
+thead{
+    background-color: rgb(246, 123, 35);
+} */
+/* LOCATION */
+/* .navbar{
+    background-color: rgb(16, 32, 56);
+    border-bottom: 4px solid rgba(164, 172, 138, 0.904);
+}
+.navbar-nav{
+    position: relative;
+    margin-left: 30%;
+    gap: 50px;
+    color: white; 
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+#logout{
+    color: rgb(246, 123, 35);
+    font-weight: 700;
+}
+.menu-item{
+    text-decoration: none;
+    font-weight: 600;
+    color: beige;
+} */
+#rdv{
+    text-align: center;
+    /* background-color: #733027; */
+    /* border-top: 4px solid rgba(212, 149, 66, 0.9); */
+    border-top: 8px solid rgba(224, 173, 173, 0.9);
+}
+.rdvc{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    height: 35px;
+    width: 150px;
+    background-color: #415A9E;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 15px;
+    
+}
+.blocl{
+    /* background-color: #39423B; */
+    position: relative;
+    top: 10px;
+    /* width: 200%; */
+}
+.blocr{
+    /* background-color: rgba(71, 30, 168, 0.856); */
+    position: relative;
+    top: 40px;
+    left: 170px;
+    /* width: 200%; */
+}
+.dmde{
+    margin-left: 35%;
+    background-color: #415A9E;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 180px;
+    position: relative;
+    top: -30px;
+    font-weight: bold;
+}
+/* .inpt{
+    background-color: rgba(224, 173, 173, 0.4);
+    border: 0;
+    width: 350px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+} */
+/* footer{
+    height: 100px;
+    background-color: rgb(16, 32, 56);
+    border-top: 2px solid wheat;
+}
+.copyr{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 40px;
+    color: beige; 
+}*/
+
+/* FIN VAN */

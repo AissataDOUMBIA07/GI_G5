@@ -1,0 +1,56 @@
+.navbar{
+    background-color: rgb(16, 32, 56);
+    border-bottom: 4px solid rgba(164, 172, 138, 0.904);
+}
+.navbar-nav{
+    position: relative;
+    margin-left: 30%;
+    gap: 50px;
+    color: white; 
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+#logout{
+    color: rgb(195, 130, 9);
+    font-weight: 700;
+}
+.menu-item{
+    text-decoration: none;
+    font-weight: 600;
+    color: beige;
+}
+#rdv{
+    text-align: center;
+    background-color: #733027;
+    border-bottom: 4px solid rgba(16, 32, 56, 0.904);
+    border-top: 60px solid rgba(161, 179, 207, 0.9);
+    
+}
+.rdvc{
+    width: 40%;
+    height: 60px;
+}
+.blocl{
+    background-color: #39423B;
+}
+.blocr{
+    background-color: rgba(71, 30, 168, 0.856);
+}
+.dmde{
+    font-weight: 800;
+    margin-left: 35%;
+}
+footer{
+    height: 100px;
+    background-color: rgb(16, 32, 56);
+    border-top: 2px solid wheat;
+}
+.copyr{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 40px;
+    color: beige;
+}
