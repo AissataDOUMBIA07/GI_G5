@@ -32,31 +32,31 @@
         
         <!-- Modal body -->
         <div class="modal-body">
-            <form action="ajoutlog2.php" method="post">
-              <div class="form-group">
-                <label for="type_log">type_log:</label>
-                <input type="texte" name="type_log" required="required" class="form-control" id="type_log" placeholder="Entrez type de logement">
-            </div>
-            <div class="form-group">
-                <label for="etat">etat:</label>
-                <input type="texte" name="etat" required="required" class="form-control" id="etat" placeholder="decris l'etat">
-            </div>
-            <div class="form-group">
-                <label for="surface">surface:</label>
-                <input type="texte" name="surface" required="required" class="form-control" id="surface" placeholder="mettez la surface">
-            </div>
-            <div class="form-group">
-                <label for="adresse">adresse:</label>
-                <input type="texte" name="adresse" required="required" class="form-control" id="adresse" placeholder="Entrez l'adresse">
-            </div>
-            <div class="form-group">
-                <label for="disponibilite">disponibilite:</label>
-                <input type="texte" name="disponibilite" required="required" class="form-control" id="disponibilite" placeholder="Entrez la disponibilité">
-            </div>
-            <div class="form-group">
-              <label for="id_propri">id_propri:</label>
-              <input type="number" name="id_propri" required="required" class="form-control" id="id_propri" placeholder="Mettez l'id de proprietaire">
-          </div>
+            <form>
+                    <div class="form-group">
+                        <label for="type_log">type_log:</label>
+                        <input type="type_log" name="type_log" required="required" class="form-control" id="type_log" placeholder="Entrez type de logement">
+                    </div>
+                    <div class="form-group">
+                        <label for="etat">etat:</label>
+                        <input type="etat"  name="etat" required="required" class="form-control" id="etat" placeholder="decris l'etat">
+                    </div>
+                    <div class="form-group">
+                        <label for="surface">surface:</label>
+                        <input type="surface"  name="surface" required="required" class="form-control" id="surface" placeholder="mettez la surface">
+                    </div>
+                    <div class="form-group">
+                        <label for="adresse">adresse:</label>
+                        <input type="adresse"  name="adresse" required="required" class="form-control" id="adresse" placeholder="Entrez l'adresse">
+                    </div>
+                    <div class="form-group">
+                        <label for="disponibilite">disponibilite:</label>
+                        <input type="disponibilite"  name="disponibilite" required="required" class="form-control" id="disponibilite" placeholder="Entrez la disponibilité">
+                    </div>
+                    <div class="form-group">
+                        <label for="id_propri">id_propri:</label>
+                        <input type="id_propri"  name="id_propri" required="required" class="form-control" id="id_propri" placeholder="Mettez l'id de proprietaire">
+                    </div>
                       <button class="retour" type="close"data-dismiss="modal" >Retour</button>
                       <button class="ajouter" type="submit"> Ajouter</button>
                 
