@@ -17,6 +17,7 @@
   <title> Client </title>
 </head>
 <body>
+    <?php echo "Test si git foctionne";  ?>
     <!-- Le menu principal -->
     <div class="">
         <!-- <div class="row"> -->
